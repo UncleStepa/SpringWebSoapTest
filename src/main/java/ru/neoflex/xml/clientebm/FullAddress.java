@@ -29,7 +29,7 @@ public class FullAddress
     private String CityName;
     @XmlElement(required = true)
     private String Postal;
-
+    @XmlElement(required = true)
     public String getAddress ()
     {
         return Address;

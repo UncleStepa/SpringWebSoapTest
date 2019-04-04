@@ -2,11 +2,13 @@ package ru.example.neoflex.springbootsoapservice;
 
 import org.springframework.stereotype.Component;
 import ru.neoflex.xml.clientebm.Client;
+import ru.neoflex.xml.clientebm.FullAddress;
 import ru.neoflex.xml.customers.Customer;
 import ru.neoflex.xml.customers.Orders;
 import ru.neoflex.xml.customers.Request;
 
 import javax.annotation.PostConstruct;
+import javax.xml.soap.Name;
 
 @Component
 public class TransformCSTMRSToULBS {
@@ -21,11 +23,15 @@ public class TransformCSTMRSToULBS {
         client.setClientID(request.getCustomers().getCustomer().getCustomerID());
         client.setBirthDate(request.getCustomers().getCustomer().getBirthDateTime());
         client.setMobileNumber(request.getCustomers().getCustomer().getPhone());
-        client.getFullAddress().setAddress(request.getCustomers().getCustomer().getFullAddress().getAddress());
-        client.getFullAddress().setCityName(request.getCustomers().getCustomer().getFullAddress().getCity());
-        client.getFullAddress().setRegionName(request.getCustomers().getCustomer().getFullAddress().getRegion());
-        client.getFullAddress().setPostal(request.getCustomers().getCustomer().getFullAddress().getPostalCode());
-        client.getFullAddress().setCountryName(request.getCustomers().getCustomer().getFullAddress().getCountry());
+
+        FullAddress address = new FullAddress();
+        address.setAddress(request.getCustomers().getCustomer().getFullAddress().getAddress());
+        address.setCityName(request.getCustomers().getCustomer().getFullAddress().getCity());
+        address.setRegionName(request.getCustomers().getCustomer().getFullAddress().getRegion());
+        address.setPostal(request.getCustomers().getCustomer().getFullAddress().getPostalCode());
+        address.setCountryName(request.getCustomers().getCustomer().getFullAddress().getCountry());
+        client.setFullAddress(address);
         return client;
+
     }
 }

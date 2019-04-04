@@ -13,7 +13,7 @@ import ru.neoflex.xml.customers.Response;
 
 @Endpoint
 public class CustomersEndpoint {
-    private static final String NAMESPACE_URI = "http://www.howtodoinjava.com/xml/school";
+    private static final String NAMESPACE_URI = "http://www.neoflex.ru/xml/customers";
 
     private TransformCSTMRSToULBS transformCSTMRSToULBS;
 

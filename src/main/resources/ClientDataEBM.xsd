@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ClientDataReqEBM">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Clients">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Client" type="ClientType" maxOccurs="1"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ClientDataResEBM">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Orders">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Order" type="OrderType" minOccurs="0" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="ClientType">
+		<xs:sequence>
+			<xs:element name="Surname" type="xs:string"/>
+			<xs:element name="Name" type="xs:string"/>
+			<xs:element name="MiddleName" type="xs:string"/>
+			<xs:element name="BirthDate" type="xs:date"/>
+			<xs:element name="MobileNumber" type="xs:string"/>
+			<xs:element name="FullAddress" type="AddressType"/>
+		</xs:sequence>
+		<xs:attribute name="ClientID" type="xs:token"/>
+	</xs:complexType>
+	<xs:complexType name="AddressType">
+		<xs:sequence>
+			<xs:element name="Address" type="xs:string"/>
+			<xs:element name="CityName" type="xs:string"/>
+			<xs:element name="RegionName" type="xs:string"/>
+			<xs:element name="Postal" type="xs:string"/>
+			<xs:element name="CountryName" type="xs:string"/>
+		</xs:sequence>
+		<xs:attribute name="ClientID" type="xs:token"/>
+	</xs:complexType>
+	<xs:complexType name="OrderType">
+		<xs:sequence>
+			<xs:element name="ClientId" type="xs:token"/>
+			<xs:element name="EmpID" type="xs:token"/>
+			<xs:element name="OrderID" type="xs:token"/>
+			<xs:element name="Date" type="xs:dateTime"/>
+			<xs:element name="DeliveryDate" type="xs:dateTime"/>
+			<xs:element name="Adds" type="AddsType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AddsType">
+		<xs:sequence>
+			<xs:element name="ProductType" type="xs:string"/>
+			<xs:element name="Quantity" type="xs:string"/>
+			<xs:element name="Amt" type="xs:string"/>
+			<xs:element name="Curr" type="xs:string"/>
+			<xs:element name="PayWay" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
