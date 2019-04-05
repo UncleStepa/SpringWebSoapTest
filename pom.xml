@@ -64,6 +64,46 @@
 					<clearOutputDir>false</clearOutputDir>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>jaxws-maven-plugin</artifactId>
+				<version>1.12</version>
+				<configuration>
+					<wsdlDirectory>${basedir}/src/main/resources/wsdl</wsdlDirectory>
+					<packageName>com.raps.code.generate.ws</packageName>
+					<keep>true</keep>
+					<sourceDestDir>${basedir}/target/generated/src/main/java</sourceDestDir>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>wsimport</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+            <plugin>
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <version>0.13.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <schemaLanguage>WSDL</schemaLanguage>
+
+                    <generatePackage>com.genwebservice</generatePackage>
+                    <schemaDirectory>src/main/resources/wsdl</schemaDirectory>
+                    <schemaIncludes>
+                        <include>clients.wsdl</include>
+                    </schemaIncludes>
+
+                </configuration>
+            </plugin>
 		</plugins>
 	</build>
 

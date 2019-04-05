@@ -7,9 +7,8 @@ import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
 
-import ru.neoflex.xml.customers.Customer;
-import ru.neoflex.xml.customers.Request;
-import ru.neoflex.xml.customers.Response;
+import ru.neoflex.xml.customers.CustomerRequest;
+import ru.neoflex.xml.customers.CustomerResponse;
 
 @Endpoint
 public class CustomersEndpoint {
@@ -17,20 +16,23 @@ public class CustomersEndpoint {
 
     private TransformCSTMRSToULBS transformCSTMRSToULBS;
 
+    private StubReauest stubReauest;
+
     @Autowired
-    public CustomersEndpoint(TransformCSTMRSToULBS transformCSTMRSToULBS) {
+    public CustomersEndpoint(TransformCSTMRSToULBS transformCSTMRSToULBS, StubReauest stubReauest) {
         this.transformCSTMRSToULBS = transformCSTMRSToULBS;
+        this.stubReauest = stubReauest;
     }
 
-    @PayloadRoot(namespace = NAMESPACE_URI, localPart = "Request")
+    @PayloadRoot(namespace = NAMESPACE_URI, localPart = "CustomerRequest")
     @ResponsePayload
-    public Response getCustomer(@RequestPayload Request request) {
+    public CustomerResponse getCustomer(@RequestPayload CustomerRequest request) throws Exception {
 
-        Response response = new Response();
-        transformCSTMRSToULBS.firstTransform(request);
-
-
-
+        CustomerResponse response = new CustomerResponse();
+        System.out.println("getCustomer");
+        //transformCSTMRSToULBS.firstTransform(request);
+        stubReauest.callStubV2(transformCSTMRSToULBS.firstTransform(request));
         return response;
     }
+
 }

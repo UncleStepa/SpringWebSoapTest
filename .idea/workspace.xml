@@ -2,10 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a179233-83e4-4701-a703-3a5bc32b5941" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/StubReauest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/SpringWebSoapTest.iml" afterPath="$PROJECT_DIR$/SpringWebSoapTest.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/Config.java" afterPath="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/Config.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.java" afterPath="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/TransformCSTMRSToULBS.java" afterPath="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/TransformCSTMRSToULBS.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/FullAddress.java" afterPath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/FullAddress.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Adds.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Client.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientDataReqEBM.java" afterPath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientDataReqEBM.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientDataResEBM.java" afterPath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientDataResEBM.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Clients.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/FullAddress.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Order.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Orders.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Customer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Customers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Details.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/FullAddress.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Order.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Orders.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Request.java" afterPath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/CustomerRequest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Response.java" afterPath="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/CustomerResponse.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Customers.xsd" afterPath="$PROJECT_DIR$/src/main/resources/Customers.xsd" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Customers.xsd" afterPath="$PROJECT_DIR$/target/classes/Customers.xsd" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/example/neoflex/springbootsoapservice/Config.class" afterPath="$PROJECT_DIR$/target/classes/ru/example/neoflex/springbootsoapservice/Config.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.class" afterPath="$PROJECT_DIR$/target/classes/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/example/neoflex/springbootsoapservice/TransformCSTMRSToULBS.class" afterPath="$PROJECT_DIR$/target/classes/ru/example/neoflex/springbootsoapservice/TransformCSTMRSToULBS.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/Adds.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/ClientDataReqEBM.class" afterPath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/ClientDataReqEBM.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/ClientDataResEBM.class" afterPath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/ClientDataResEBM.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/Clients.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/FullAddress.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/Order.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/Orders.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/Customer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/Customers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/Details.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/FullAddress.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/Order.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/Orders.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/Request.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/Response.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,13 +56,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SpringWebSoapTest$SpringBootSoapServiceApplication.coverage" NAME="SpringBootSoapServiceApplication Coverage Results" MODIFIED="1554468701693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.example.neoflex.springbootsoapservice.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="TransformCSTMRSToULBS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/TransformCSTMRSToULBS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,15 +75,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FullAddress.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/FullAddress.java">
+      <file leaf-file-name="ClientDataReqEBM.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientDataReqEBM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="71" column="38" lean-forward="false" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1147#1148#0" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
+                <element signature="e#1939#1940#0" expanded="true" />
+                <element signature="e#1969#1970#0" expanded="true" />
+                <element signature="e#3507#3508#0" expanded="true" />
+                <element signature="e#3550#3551#0" expanded="true" />
+                <element signature="e#3603#3604#0" expanded="true" />
+                <element signature="e#3702#3703#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,8 +95,8 @@
       <file leaf-file-name="CustomersEndpoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,34 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/Config.java">
+      <file leaf-file-name="StubReauest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/StubReauest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-              <folding>
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Clients.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Clients.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="180">
+              <caret line="38" column="78" lean-forward="true" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,6 +128,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>targetNamespace</find>
+      <find>@XmlElement(required = true)</find>
+      <find>resource</find>
+      <find>run</find>
+      <find>clientDataReqEBM</find>
+      <find>http://ws64-146:8088/mockClientsDetailsPortSoap11</find>
+      <find>ClientDataReqEBM</find>
+      <find>marshalSendAndReceive</find>
+      <find>transform</find>
+      <find>webServiceTemplate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,23 +150,35 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/SpringBootSoapServiceApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientDataResEBM.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Orders.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Adds.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientDataReqEBM.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Request.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Clients.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Customers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Response.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Clients.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Orders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/CustomerRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/CustomerResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Details.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/FullAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Orders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Adds.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/FullAddress.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/TransformCSTMRSToULBS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/AddressType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/AddsType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientDataResEBM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/OrderType.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/Config.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/SpringBootSoapServiceApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/TransformCSTMRSToULBS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientDataReqEBM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/StubReauest.java" />
       </list>
     </option>
   </component>
@@ -147,6 +193,11 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="SpringWebSoapTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SpringWebSoapTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
       <select />
@@ -179,7 +230,6 @@
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,6 +321,17 @@
               <item name="ru" type="462c0819:PsiDirectoryNode" />
               <item name="neoflex" type="462c0819:PsiDirectoryNode" />
               <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="clientebm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringWebSoapTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringWebSoapTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="neoflex" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
               <item name="customers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,17 +341,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringWebSoapTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringWebSoapTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="wsdl" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/GITTS2.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-ws-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -442,31 +513,32 @@
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3416216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5021322" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14712153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14712153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34196892" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14872068" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26385927" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -475,294 +547,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-837">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Orders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Adds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="69" column="1" lean-forward="false" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-          <folding>
-            <element signature="e#230#231#0" expanded="false" />
-            <element signature="e#257#258#0" expanded="false" />
-            <element signature="e#302#303#0" expanded="false" />
-            <element signature="e#334#335#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#401#402#0" expanded="false" />
-            <element signature="e#450#451#0" expanded="false" />
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#529#530#0" expanded="false" />
-            <element signature="e#563#564#0" expanded="false" />
-            <element signature="e#622#623#0" expanded="false" />
-            <element signature="e#668#669#0" expanded="false" />
-            <element signature="e#708#709#0" expanded="false" />
-            <element signature="e#739#740#0" expanded="false" />
-            <element signature="e#792#793#0" expanded="false" />
-            <element signature="e#832#833#0" expanded="false" />
-            <element signature="e#867#868#0" expanded="false" />
-            <element signature="e#893#894#0" expanded="false" />
-            <element signature="e#936#937#0" expanded="false" />
-            <element signature="e#966#967#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="81" column="1" lean-forward="false" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
-          <folding>
-            <element signature="e#263#264#0" expanded="false" />
-            <element signature="e#294#295#0" expanded="false" />
-            <element signature="e#347#348#0" expanded="false" />
-            <element signature="e#387#388#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#575#576#0" expanded="false" />
-            <element signature="e#612#613#0" expanded="false" />
-            <element signature="e#640#641#0" expanded="false" />
-            <element signature="e#687#688#0" expanded="false" />
-            <element signature="e#721#722#0" expanded="false" />
-            <element signature="e#760#761#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-            <element signature="e#841#842#0" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#913#914#0" expanded="false" />
-            <element signature="e#940#941#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1015#1016#0" expanded="false" />
-            <element signature="e#1051#1052#0" expanded="false" />
-            <element signature="e#1078#1079#0" expanded="false" />
-            <element signature="e#1123#1124#0" expanded="false" />
-            <element signature="e#1155#1156#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Orders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#120#121#0" expanded="false" />
-            <element signature="e#148#149#0" expanded="false" />
-            <element signature="e#196#197#0" expanded="false" />
-            <element signature="e#230#231#0" expanded="false" />
-            <element signature="e#280#281#0" expanded="false" />
-            <element signature="e#334#335#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientDataResEBM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#130#131#0" expanded="false" />
-            <element signature="e#159#160#0" expanded="false" />
-            <element signature="e#208#209#0" expanded="false" />
-            <element signature="e#244#245#0" expanded="false" />
-            <element signature="e#294#295#0" expanded="false" />
-            <element signature="e#350#351#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#950#951#0" expanded="false" />
-            <element signature="e#984#985#0" expanded="false" />
-            <element signature="e#1048#1049#0" expanded="false" />
-            <element signature="e#1094#1095#0" expanded="false" />
-            <element signature="e#1135#1136#0" expanded="false" />
-            <element signature="e#1167#1168#0" expanded="false" />
-            <element signature="e#1222#1223#0" expanded="false" />
-            <element signature="e#1264#1265#0" expanded="false" />
-            <element signature="e#1301#1302#0" expanded="false" />
-            <element signature="e#1329#1330#0" expanded="false" />
-            <element signature="e#1376#1377#0" expanded="false" />
-            <element signature="e#1410#1411#0" expanded="false" />
-            <element signature="e#1452#1453#0" expanded="false" />
-            <element signature="e#1485#1486#0" expanded="false" />
-            <element signature="e#1542#1543#0" expanded="false" />
-            <element signature="e#1586#1587#0" expanded="false" />
-            <element signature="e#1626#1627#0" expanded="false" />
-            <element signature="e#1657#1658#0" expanded="false" />
-            <element signature="e#1710#1711#0" expanded="false" />
-            <element signature="e#1750#1751#0" expanded="false" />
-            <element signature="e#1792#1793#0" expanded="false" />
-            <element signature="e#1825#1826#0" expanded="false" />
-            <element signature="e#1882#1883#0" expanded="false" />
-            <element signature="e#1926#1927#0" expanded="false" />
-            <element signature="e#1971#1972#0" expanded="false" />
-            <element signature="e#2007#2008#0" expanded="false" />
-            <element signature="e#2070#2071#0" expanded="false" />
-            <element signature="e#2120#2121#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#555#556#0" expanded="false" />
-            <element signature="e#587#588#0" expanded="false" />
-            <element signature="e#645#646#0" expanded="false" />
-            <element signature="e#687#688#0" expanded="false" />
-            <element signature="e#737#738#0" expanded="false" />
-            <element signature="e#799#800#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Details.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Customers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#611#612#0" expanded="false" />
-            <element signature="e#651#652#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Clients.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientDataReqEBM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/SpringBootSoapServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#287#288#0" expanded="false" />
-            <element signature="e#370#371#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/FullAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-          <folding>
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/FullAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/TransformCSTMRSToULBS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/FullAddress.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="510">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -770,11 +563,269 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Client.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Clients.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1858#1859#0" expanded="false" />
+            <element signature="e#1940#1941#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Customers.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Order.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Orders.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/FullAddress.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Details.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Customers.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/CustomerResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Customer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Adds.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/CustomerRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/FullAddress.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Order.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Orders.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/generated/OrderType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Clients.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/generated/ClientDataReqEBM.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/generated/ClientDataResEBM.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/generated/ObjectFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/Client.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/generated/ClientType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/generated/AddsType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/generated/AddressType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/AddressType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="58" column="49" lean-forward="true" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/CustomerType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.0.RC4/spring-core-5.0.0.RC4-sources.jar!/org/springframework/core/io/ClassPathResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="64" column="11" lean-forward="false" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/AddressType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/AddsType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/OrderType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#525#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientDataResEBM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="56" column="30" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringWebSoapTest.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/jre/lib/rt.jar!/com/sun/xml/internal/messaging/saaj/soap/ver1_1/Envelope1_1Impl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/ws/spring-ws-core/2.4.0.RELEASE/spring-ws-core-2.4.0.RELEASE-sources.jar!/org/springframework/ws/client/core/WebServiceOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="94" column="7" lean-forward="true" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-oxm/5.0.0.RC4/spring-oxm-5.0.0.RC4-sources.jar!/org/springframework/oxm/jaxb/Jaxb2Marshaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="212" column="16" lean-forward="false" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
+          <folding>
+            <element signature="e#6973#6974#0" expanded="false" />
+            <element signature="e#7010#7011#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/ws/spring-ws-core/2.4.0.RELEASE/spring-ws-core-2.4.0.RELEASE-sources.jar!/org/springframework/ws/client/core/WebServiceTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4964">
+          <caret line="388" column="71" lean-forward="false" selection-start-line="388" selection-start-column="46" selection-end-line="388" selection-end-column="71" />
+          <folding>
+            <element signature="method#WebServiceTemplate#2;class#WebServiceTemplate#0" expanded="false" />
+            <element signature="method#WebServiceTemplate#3;class#WebServiceTemplate#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1581">
+          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/SpringBootSoapServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#287#288#0" expanded="false" />
+            <element signature="e#370#371#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientDataReqEBM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="71" column="38" lean-forward="false" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+          <folding>
+            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#1969#1970#0" expanded="true" />
+            <element signature="e#3507#3508#0" expanded="true" />
+            <element signature="e#3550#3551#0" expanded="true" />
+            <element signature="e#3603#3604#0" expanded="true" />
+            <element signature="e#3702#3703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/TransformCSTMRSToULBS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="101" column="45" lean-forward="false" selection-start-line="101" selection-start-column="41" selection-end-line="101" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/wsdl/clients.wsdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="86" column="59" lean-forward="false" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/StubReauest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="38" column="78" lean-forward="true" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

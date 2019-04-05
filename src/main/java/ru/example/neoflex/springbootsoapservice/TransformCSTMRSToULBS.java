@@ -1,22 +1,18 @@
 package ru.example.neoflex.springbootsoapservice;
 
-import org.springframework.stereotype.Component;
-import ru.neoflex.xml.clientebm.Client;
-import ru.neoflex.xml.clientebm.FullAddress;
-import ru.neoflex.xml.customers.Customer;
-import ru.neoflex.xml.customers.Orders;
-import ru.neoflex.xml.customers.Request;
 
-import javax.annotation.PostConstruct;
-import javax.xml.soap.Name;
+import org.springframework.stereotype.Component;
+import ru.neoflex.xml.clientebm.ClientDataReqEBM;
+import ru.neoflex.xml.clientebm.ClientType;
+import ru.neoflex.xml.customers.CustomerRequest;
 
 @Component
 public class TransformCSTMRSToULBS {
 
 
-    public Client firstTransform(Request request){
-
-        Client client = new Client();
+    public ClientDataReqEBM firstTransform(CustomerRequest request) {
+        ClientDataReqEBM clientDataReqEBM = new ClientDataReqEBM();
+        ClientType client = new ClientType();
         client.setSurname(request.getCustomers().getCustomer().getLastName());
         client.setName(request.getCustomers().getCustomer().getFirstName());
         client.setMiddleName(request.getCustomers().getCustomer().getMiddleName());
@@ -24,14 +20,19 @@ public class TransformCSTMRSToULBS {
         client.setBirthDate(request.getCustomers().getCustomer().getBirthDateTime());
         client.setMobileNumber(request.getCustomers().getCustomer().getPhone());
 
-        FullAddress address = new FullAddress();
+        ru.neoflex.xml.clientebm.AddressType address = new ru.neoflex.xml.clientebm.AddressType();
         address.setAddress(request.getCustomers().getCustomer().getFullAddress().getAddress());
         address.setCityName(request.getCustomers().getCustomer().getFullAddress().getCity());
         address.setRegionName(request.getCustomers().getCustomer().getFullAddress().getRegion());
         address.setPostal(request.getCustomers().getCustomer().getFullAddress().getPostalCode());
         address.setCountryName(request.getCustomers().getCustomer().getFullAddress().getCountry());
         client.setFullAddress(address);
-        return client;
+        System.out.println("transform1");
+        ClientDataReqEBM.Clients q = new ClientDataReqEBM.Clients();
+        q.setClient(client);
+        clientDataReqEBM.setClients(q);
+        return clientDataReqEBM;
 
     }
+
 }
