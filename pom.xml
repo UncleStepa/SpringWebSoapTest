@@ -41,6 +41,17 @@
 	</dependencies>
 
 	<build>
+		<resources>
+			<resource>
+                <directory>src/main/resources</directory>
+                <targetPath>${build.directory}/classes</targetPath>
+                <includes>
+                    <include>Application.properties</include>
+                    <include>ClientDataEBM.xsd</include>
+                    <include>Customers.xsd</include>
+                </includes>
+            </resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

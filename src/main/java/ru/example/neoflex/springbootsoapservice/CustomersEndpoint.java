@@ -16,12 +16,12 @@ public class CustomersEndpoint {
 
     private TransformCSTMRSToULBS transformCSTMRSToULBS;
 
-    private StubReauest stubReauest;
+    private StubRequest stubRequest;
 
     @Autowired
-    public CustomersEndpoint(TransformCSTMRSToULBS transformCSTMRSToULBS, StubReauest stubReauest) {
+    public CustomersEndpoint(TransformCSTMRSToULBS transformCSTMRSToULBS, StubRequest stubRequest) {
         this.transformCSTMRSToULBS = transformCSTMRSToULBS;
-        this.stubReauest = stubReauest;
+        this.stubRequest = stubRequest;
     }
 
     @PayloadRoot(namespace = NAMESPACE_URI, localPart = "CustomerRequest")
@@ -31,7 +31,11 @@ public class CustomersEndpoint {
         CustomerResponse response = new CustomerResponse();
         System.out.println("getCustomer");
         //transformCSTMRSToULBS.firstTransform(request);
-        stubReauest.callStubV2(transformCSTMRSToULBS.firstTransform(request));
+        try {
+            System.out.println(stubRequest.callWebService("http://localhost:8088/mockClientsDetailsPortSoap11", transformCSTMRSToULBS.firstTransform(request)).getClass().getName());
+        }catch (Throwable e){
+            System.out.println(e.getMessage());
+        }
         return response;
     }
 

@@ -38,7 +38,7 @@ public class Config extends WsConfigurerAdapter {
 
     @Bean
     public XsdSchema customersSchema() {
-        return new SimpleXsdSchema(new ClassPathResource("customers.xsd"));
+        return new SimpleXsdSchema(new ClassPathResource("Customers.xsd"));
     }
     
     @Bean
@@ -46,6 +46,11 @@ public class Config extends WsConfigurerAdapter {
         Jaxb2Marshaller jaxb2Marshaller = new Jaxb2Marshaller();
         jaxb2Marshaller.setClassesToBeBound(ClientDataReqEBM.class, ClientDataResEBM.class);
         return jaxb2Marshaller;
+    }
+
+    @Bean(name = "urlEBM")
+    public String getUrlEBM(){
+        return "http://localhost:8088/mockClientsDetailsPortSoap11";
     }
 
 }
