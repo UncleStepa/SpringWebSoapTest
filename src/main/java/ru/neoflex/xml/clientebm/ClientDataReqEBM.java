@@ -124,6 +124,6 @@ public class ClientDataReqEBM {
 
     @Override
     public String toString() {
-        return String.format("ClientDataEBM middleName=%s", getClients().client.middleName);
+        return String.format("ClientDataEBM middleName=%s", getClients().getClient().getMiddleName());
     }
 }

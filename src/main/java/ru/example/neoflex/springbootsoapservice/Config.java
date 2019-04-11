@@ -14,6 +14,8 @@ import org.springframework.xml.xsd.SimpleXsdSchema;
 import org.springframework.xml.xsd.XsdSchema;
 import ru.neoflex.xml.clientebm.ClientDataResEBM;
 import ru.neoflex.xml.clientebm.ClientDataReqEBM;
+import ru.neoflex.xml.customers.CustomerRequest;
+import ru.neoflex.xml.customers.CustomerResponse;
 
 @EnableWs
 @Configuration
@@ -40,16 +42,16 @@ public class Config extends WsConfigurerAdapter {
     public XsdSchema customersSchema() {
         return new SimpleXsdSchema(new ClassPathResource("Customers.xsd"));
     }
-    
+
     @Bean
     public Jaxb2Marshaller marshaller() {
         Jaxb2Marshaller jaxb2Marshaller = new Jaxb2Marshaller();
-        jaxb2Marshaller.setClassesToBeBound(ClientDataReqEBM.class, ClientDataResEBM.class);
+        jaxb2Marshaller.setClassesToBeBound(ClientDataReqEBM.class, ClientDataResEBM.class, CustomerRequest.class, CustomerResponse.class);
         return jaxb2Marshaller;
     }
 
     @Bean(name = "urlEBM")
-    public String getUrlEBM(){
+    public String getUrlEBM() {
         return "http://localhost:8088/mockClientsDetailsPortSoap11";
     }
 
