@@ -36,7 +36,7 @@ public class CustomersEndpoint {
         try {
             System.out.println(stubRequest.callWebService(urlEBM, transformCSTMRSToULBS.firstTransform(request)).getClass().getName());
         }catch (Throwable e){
-            System.out.print("Error CustomerResponse ");
+            System.out.print("Throwable CustomerResponse ");
             System.out.println(e.getMessage());
         }
         return response;

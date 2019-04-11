@@ -9,6 +9,7 @@ import org.springframework.ws.soap.addressing.client.ActionCallback;
 import org.springframework.ws.soap.client.core.SoapActionCallback;
 import org.springframework.ws.soap.saaj.SaajSoapMessageFactory;
 import org.springframework.xml.transform.StringResult;
+import ru.neoflex.xml.clientebm.ClientDataReqEBM;
 
 import javax.xml.soap.MessageFactory;
 import javax.xml.soap.SOAPException;
@@ -33,13 +34,15 @@ public class StubRequest {
             webServiceTemplate.setMarshaller(jaxb2Marshaller);
             webServiceTemplate.setUnmarshaller(jaxb2Marshaller);
             webServiceTemplate.afterPropertiesSet();
+            System.out.print("StubRequest ");
+            System.out.println(urlEBM);
         } catch (SOAPException e) {
             e.printStackTrace();
         }
         this.jaxb2Marshaller = jaxb2Marshaller;
     }
 
-    public Object callWebService(String url, Object request) {
+    public Object callWebService(String url, ClientDataReqEBM request) {
         StringResult resultReq = new StringResult();
         jaxb2Marshaller.marshal(request, resultReq);
         System.out.print("resultReq ");
