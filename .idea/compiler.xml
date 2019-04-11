@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-soap-service" />
         <module name="SpringWebSoapTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-boot-soap-service" target="1.8" />
       <module name="SpringWebSoapTest" target="1.8" />
     </bytecodeTargetLevel>
   </component>

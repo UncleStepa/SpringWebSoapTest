@@ -2,9 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a179233-83e4-4701-a703-3a5bc32b5941" name="Default" comment="что-то сделал не пашет">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-soap-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_kotlin_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_services_2_0_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_0_RC4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_0_RC4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_0_RC4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_0_RC4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_0_RC4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_0_RC4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_0_RC4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_0_RC4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_0_RC4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_0_RC4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_ws_core_2_4_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_xml_2_4_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringWebSoapTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generated/AddressType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generated/AddsType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generated/ClientDataReqEBM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generated/ClientDataResEBM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generated/ClientType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generated/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generated/OrderType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/StubRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/StubRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ClientDataEBM.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Customers.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generated/AddressType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generated/AddsType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generated/ClientDataReqEBM$Clients.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generated/ClientDataReqEBM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generated/ClientDataResEBM$Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generated/ClientDataResEBM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generated/ClientType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generated/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generated/OrderType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/example/neoflex/springbootsoapservice/SpringBootSoapServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/example/neoflex/springbootsoapservice/TransformCSTMRSToULBS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/AddressType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/AddsType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/ClientDataReqEBM$Clients.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/ClientDataReqEBM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/ClientDataResEBM$Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/ClientDataResEBM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/ClientType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/clientebm/OrderType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/AddressType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/CustomerRequest$Customers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/CustomerRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/CustomerResponse$Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/CustomerResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/CustomerType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/DetailsType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/OrderType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/xml/customers/package-info.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,69 +169,52 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-547572715">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="3" />
+          <entry key="pom" value="2" />
+          <entry key="properties" value="1" />
+          <entry key="wsdl" value="3" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="3" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="92" />
+          <entry key="xml" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="92" />
+          <entry key="XML" value="26" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/SpringBootSoapServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/StubRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="44" column="57" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-              <folding>
-                <element signature="e#2395#2396#0" expanded="true" />
-                <element signature="e#2470#2471#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -155,6 +244,9 @@
       <find>middleName</find>
       <find>setClients</find>
       <find>WebServiceTemplate</find>
+      <find>DetailsAboutClients</find>
+      <find>StubRequest</find>
+      <find>xal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -188,12 +280,12 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientType.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/TransformCSTMRSToULBS.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/StubReauest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/xml/clientebm/ClientDataReqEBM.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/StubRequest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -227,10 +319,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="y" value="26" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -247,38 +338,13 @@
               <item name="SpringWebSoapTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringWebSoapTest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpringWebSoapTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringWebSoapTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringWebSoapTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringWebSoapTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringWebSoapTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringWebSoapTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringWebSoapTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringWebSoapTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,7 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpringBootSoapServiceApplication">
+  <component name="RunManager" selected="Spring Boot.SpringBootSoapServiceApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -396,6 +462,7 @@
       <workItem from="1554812275717" duration="52000" />
       <workItem from="1554903333506" duration="13161000" />
       <workItem from="1554992528127" duration="2163000" />
+      <workItem from="1555003989378" duration="4440000" />
     </task>
     <task id="LOCAL-00001" summary="start вменяемая ошибка">
       <created>1554917254434</created>
@@ -415,17 +482,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16811000" />
+    <option name="totallyTimeSpent" value="21251000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="24" width="1920" height="1055" extended-state="6" />
+    <frame x="0" y="26" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.16595517" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.19882101" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
@@ -435,7 +502,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32903227" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3107527" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.392936" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39979124" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -445,7 +512,7 @@
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.14872068" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="2" visible="true" weight="0.14674494" />
+      <window_info anchor="right" id="Maven Projects" order="2" visible="true" weight="0.14630225" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
@@ -496,15 +563,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="что-то сделал не пашет" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Customers.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Order.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Orders.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/FullAddress.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Details.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/xml/customers/Customers.java" />
@@ -597,20 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/wsdl/clients.wsdl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="86" column="59" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/mojo/jaxws-maven-plugin/1.12/jaxws-maven-plugin-1.12.jar!/META-INF/maven/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/TransformCSTMRSToULBS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -621,13 +665,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_192/src.zip!/javax/xml/transform/stream/StreamSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_192/src.zip!/javax/xml/transform/stream/StreamSource.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/ws/spring-ws-core/2.4.0.RELEASE/spring-ws-core-2.4.0.RELEASE.jar!/org/springframework/ws/client/core/WebServiceTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -674,17 +712,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_192/src.zip!/javax/xml/soap/MessageFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="102" column="31" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
-        </state>
-      </provider>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_192/src.zip!/javax/xml/soap/MessageFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/wsdl/customers.wsdl">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/SpringBootSoapServiceApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/mojo/jaxws-maven-plugin/1.12/jaxws-maven-plugin-1.12.jar!/META-INF/maven/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="190">
+          <caret line="329" column="8" selection-start-line="329" selection-start-column="8" selection-end-line="329" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -695,10 +730,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/SpringBootSoapServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web-services/2.0.0.M4/spring-boot-starter-web-services-2.0.0.M4.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/com/sun/xml/internal/messaging/saaj/soap/ver1_1/SOAPMessageFactory1_1Impl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/wsdl/clients.wsdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="86" column="59" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/StubRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        <state relative-caret-position="473">
+          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
           <folding>
             <element signature="e#2395#2396#0" expanded="true" />
             <element signature="e#2470#2471#0" expanded="true" />
@@ -706,30 +789,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/CustomersEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/example/neoflex/springbootsoapservice/StubRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="44" column="57" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="90">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>

@@ -52,7 +52,7 @@ public class Config extends WsConfigurerAdapter {
 
     @Bean(name = "urlEBM")
     public String getUrlEBM() {
-        return "http://localhost:8088/mockClientsDetailsPortSoap11";
+        return "http://localhost:9999/mockClientsDetailsPortSoap11";
     }
 
 }
