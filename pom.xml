@@ -5,7 +5,7 @@
 
     <groupId>com.example.howtodoinjava</groupId>
     <artifactId>SpringWebSoapTest</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <name>SpringWebSoapTest</name>
@@ -50,6 +50,7 @@
     </dependencies>
 
     <build>
+        <finalName>${artifactId}</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
