@@ -21,11 +21,11 @@ import ru.neoflex.xml.customers.CustomerResponse;
 @Configuration
 public class Config extends WsConfigurerAdapter {
     @Bean
-    public ServletRegistrationBean messageDispatcherServlet(ApplicationContext applicationContext) {
+    public ServletRegistrationBean<MessageDispatcherServlet> messageDispatcherServlet(ApplicationContext applicationContext) {
         MessageDispatcherServlet servlet = new MessageDispatcherServlet();
         servlet.setApplicationContext(applicationContext);
         servlet.setTransformWsdlLocations(true);
-        return new ServletRegistrationBean(servlet, "/service/*");
+        return new ServletRegistrationBean<>(servlet, "/service/*");
     }
 
     @Bean(name = "customersDetailsWsdl")
@@ -52,7 +52,7 @@ public class Config extends WsConfigurerAdapter {
 
     @Bean(name = "urlEBM")
     public String getUrlEBM() {
-        return "http://localhost:9999/mockClientsDetailsPortSoap11";
+        return "http://localhost:8088/mockClientsDetailsPortSoap11";
     }
 
 }

@@ -6,17 +6,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 import org.springframework.stereotype.Component;
 import org.springframework.ws.client.core.WebServiceTemplate;
-import org.springframework.ws.soap.SoapVersion;
-import org.springframework.ws.soap.saaj.SaajSoapMessage;
+import org.springframework.ws.soap.SoapMessage;
 import org.springframework.ws.soap.saaj.SaajSoapMessageFactory;
-import org.springframework.ws.transport.TransportConstants;
+import org.springframework.ws.transport.context.TransportContext;
+import org.springframework.ws.transport.context.TransportContextHolder;
+import org.springframework.ws.transport.http.HttpUrlConnection;
 import org.springframework.xml.transform.StringResult;
 import ru.neoflex.xml.clientebm.ClientDataReqEBM;
 
-import javax.xml.soap.MessageFactory;
-import javax.xml.soap.MimeHeaders;
 import javax.xml.soap.SOAPException;
-import javax.xml.transform.stream.StreamResult;
+import java.io.IOException;
+import java.util.Date;
 
 @Component
 public class StubRequest {
@@ -46,24 +46,33 @@ public class StubRequest {
         this.jaxb2Marshaller = jaxb2Marshaller;
     }
 
-    public Object callWebService(String url, ClientDataReqEBM request) {
+    Object callWebService(String url, ClientDataReqEBM request) {
         StringResult resultReq = new StringResult();
         jaxb2Marshaller.marshal(request, resultReq);
         System.out.print("resultReq ");
         System.out.println(resultReq.toString());
 
-        StreamResult result = new StreamResult(System.out);
         return webServiceTemplate.marshalSendAndReceive(url, request, message -> {
-                    try {
-                        SaajSoapMessage soapMessage = (SaajSoapMessage) message;
-                        MimeHeaders headers = soapMessage.getSaajMessage().getMimeHeaders();
-                        headers.addHeader(TransportConstants.HEADER_CONTENT_TYPE, "application/xml;charset=utf-8");
-                        headers.addHeader(TransportConstants.HEADER_SOAP_ACTION, "DetailsAboutClients");
-                    } catch (Throwable e) {
-                        System.out.println(e.getMessage());
-                    }
+                    SoapMessage soapMessage = (SoapMessage) message;
+                    soapMessage.setSoapAction("DetailsAboutClients");
+                    TransportContext context = TransportContextHolder.getTransportContext();
+                    HttpUrlConnection connection = (HttpUrlConnection) context.getConnection();
+                    connection.addRequestHeader("Content-Type", "text/xml;charset=UTF-8");
+                    connection.addRequestHeader("Date", new Date().toString());
+
                 }
         );
+//        return webServiceTemplate.marshalSendAndReceive(url, request, message -> {
+//                    try {
+//                        SaajSoapMessage soapMessage = (SaajSoapMessage) message;
+//                        MimeHeaders headers = soapMessage.getSaajMessage().getMimeHeaders();
+//                        headers.addHeader(TransportConstants.HEADER_CONTENT_TYPE, "application/xml;charset=utf-8");
+//                        headers.addHeader(TransportConstants.HEADER_SOAP_ACTION, "DetailsAboutClients");
+//                    } catch (Throwable e) {
+//                        System.out.println(e.getMessage());
+//                    }
+//                }
+//        );
 
     }
 
