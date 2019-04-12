@@ -16,6 +16,7 @@ import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import javax.xml.datatype.XMLGregorianCalendar;
+import java.util.StringJoiner;
 
 
 /**
@@ -218,4 +219,15 @@ public class OrderType {
         this.adds = value;
     }
 
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", OrderType.class.getSimpleName() + "[", "]")
+                .add("clientId='" + clientId + "'")
+                .add("empID='" + empID + "'")
+                .add("orderID='" + orderID + "'")
+                .add("date=" + date)
+                .add("deliveryDate=" + deliveryDate)
+                .add("adds=" + adds)
+                .toString();
+    }
 }

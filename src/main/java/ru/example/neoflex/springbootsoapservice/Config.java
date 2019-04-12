@@ -17,6 +17,9 @@ import ru.neoflex.xml.clientebm.ClientDataReqEBM;
 import ru.neoflex.xml.customers.CustomerRequest;
 import ru.neoflex.xml.customers.CustomerResponse;
 
+import javax.xml.bind.Marshaller;
+import java.util.TreeMap;
+
 @EnableWs
 @Configuration
 public class Config extends WsConfigurerAdapter {
@@ -46,6 +49,13 @@ public class Config extends WsConfigurerAdapter {
     @Bean
     public Jaxb2Marshaller marshaller() {
         Jaxb2Marshaller jaxb2Marshaller = new Jaxb2Marshaller();
+        jaxb2Marshaller.setMarshallerProperties(new TreeMap<String, Object>(){
+            {
+                put(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+                put(Marshaller.JAXB_FRAGMENT, Boolean.TRUE);
+                put("com.sun.xml.internal.bind.xmlHeaders", "<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
+            }
+        });
         jaxb2Marshaller.setClassesToBeBound(ClientDataReqEBM.class, ClientDataResEBM.class, CustomerRequest.class, CustomerResponse.class);
         return jaxb2Marshaller;
     }

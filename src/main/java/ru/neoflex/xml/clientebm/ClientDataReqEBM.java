@@ -46,7 +46,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "", propOrder = {
         "clients"
 })
-@XmlRootElement(name = "ClientDataReqEBM", namespace = "http://www.neoflex.ru/xml/clients")
+@XmlRootElement(name = "ClientDataReqEBM")
 public class ClientDataReqEBM {
 
     @XmlElement(name = "Clients", required = true)
@@ -69,7 +69,6 @@ public class ClientDataReqEBM {
      *              {@link ClientDataReqEBM.Clients }
      */
     public void setClients(ClientDataReqEBM.Clients value) {
-        System.out.println("setClients");
         this.clients = value;
     }
 

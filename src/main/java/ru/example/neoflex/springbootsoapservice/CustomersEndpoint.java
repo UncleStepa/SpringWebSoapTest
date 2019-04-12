@@ -7,6 +7,8 @@ import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
 
+import ru.neoflex.xml.clientebm.ClientDataReqEBM;
+import ru.neoflex.xml.clientebm.ClientDataResEBM;
 import ru.neoflex.xml.customers.CustomerRequest;
 import ru.neoflex.xml.customers.CustomerResponse;
 
@@ -19,8 +21,9 @@ public class CustomersEndpoint {
     private StubRequest stubRequest;
 
     private String urlEBM;
+
     @Autowired
-    public CustomersEndpoint(TransformCSTMRSToULBS transformCSTMRSToULBS, StubRequest stubRequest,String urlEBM) {
+    public CustomersEndpoint(TransformCSTMRSToULBS transformCSTMRSToULBS, StubRequest stubRequest, String urlEBM) {
         this.transformCSTMRSToULBS = transformCSTMRSToULBS;
         this.stubRequest = stubRequest;
         this.urlEBM = urlEBM;
@@ -28,16 +31,17 @@ public class CustomersEndpoint {
 
     @PayloadRoot(namespace = NAMESPACE_URI, localPart = "CustomerRequest")
     @ResponsePayload
-    public CustomerResponse getCustomer(@RequestPayload CustomerRequest request) throws Exception {
+    public CustomerResponse customerRequest(@RequestPayload CustomerRequest request) {
 
         CustomerResponse response = new CustomerResponse();
-        System.out.println("getCustomer");
-        //transformCSTMRSToULBS.firstTransform(request);
         try {
-            System.out.println(stubRequest.callWebService(urlEBM, transformCSTMRSToULBS.firstTransform(request)).getClass().getName());
-        }catch (Throwable e){
+            ClientDataReqEBM reqEBM = transformCSTMRSToULBS.firstTransform(request);
+            ClientDataResEBM resEBM = (ClientDataResEBM) stubRequest.callWebService(urlEBM, reqEBM);
+            response = transformCSTMRSToULBS.firstTransform(resEBM);
+        } catch (Throwable e) {
             System.out.print("Throwable CustomerResponse ");
             System.out.println(e.getMessage());
+            throw e;
         }
         return response;
     }
