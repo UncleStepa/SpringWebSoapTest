@@ -8,11 +8,7 @@
 
 package ru.neoflex.xml.clientebm;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.*;
 
 
 /**
@@ -72,6 +68,10 @@ public class ClientDataReqEBM {
         this.clients = value;
     }
 
+    @Override
+    public String toString() {
+        return String.format("ClientDataEBM middleName=%s", getClients().getClient().getMiddleName());
+    }
 
     /**
      * <p>Java class for anonymous complex type.
@@ -119,10 +119,5 @@ public class ClientDataReqEBM {
             this.client = value;
         }
 
-    }
-
-    @Override
-    public String toString() {
-        return String.format("ClientDataEBM middleName=%s", getClients().getClient().getMiddleName());
     }
 }

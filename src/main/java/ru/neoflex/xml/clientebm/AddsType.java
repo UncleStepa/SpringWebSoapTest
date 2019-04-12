@@ -16,9 +16,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for AddsType complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="AddsType">
  *   &lt;complexContent>
@@ -34,16 +34,14 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "AddsType", propOrder = {
-    "productType",
-    "quantity",
-    "amt",
-    "curr",
-    "payWay"
+        "productType",
+        "quantity",
+        "amt",
+        "curr",
+        "payWay"
 })
 public class AddsType {
 
@@ -60,11 +58,9 @@ public class AddsType {
 
     /**
      * Gets the value of the productType property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getProductType() {
         return productType;
@@ -72,11 +68,9 @@ public class AddsType {
 
     /**
      * Sets the value of the productType property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setProductType(String value) {
         this.productType = value;
@@ -84,11 +78,9 @@ public class AddsType {
 
     /**
      * Gets the value of the quantity property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getQuantity() {
         return quantity;
@@ -96,11 +88,9 @@ public class AddsType {
 
     /**
      * Sets the value of the quantity property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setQuantity(String value) {
         this.quantity = value;
@@ -108,11 +98,9 @@ public class AddsType {
 
     /**
      * Gets the value of the amt property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getAmt() {
         return amt;
@@ -120,11 +108,9 @@ public class AddsType {
 
     /**
      * Sets the value of the amt property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setAmt(String value) {
         this.amt = value;
@@ -132,11 +118,9 @@ public class AddsType {
 
     /**
      * Gets the value of the curr property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getCurr() {
         return curr;
@@ -144,11 +128,9 @@ public class AddsType {
 
     /**
      * Sets the value of the curr property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setCurr(String value) {
         this.curr = value;
@@ -156,11 +138,9 @@ public class AddsType {
 
     /**
      * Gets the value of the payWay property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getPayWay() {
         return payWay;
@@ -168,11 +148,9 @@ public class AddsType {
 
     /**
      * Sets the value of the payWay property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setPayWay(String value) {
         this.payWay = value;

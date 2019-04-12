@@ -1,5 +1,6 @@
 package ru.example.neoflex.springbootsoapservice;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
@@ -12,8 +13,8 @@ import org.springframework.ws.transport.http.MessageDispatcherServlet;
 import org.springframework.ws.wsdl.wsdl11.DefaultWsdl11Definition;
 import org.springframework.xml.xsd.SimpleXsdSchema;
 import org.springframework.xml.xsd.XsdSchema;
-import ru.neoflex.xml.clientebm.ClientDataResEBM;
 import ru.neoflex.xml.clientebm.ClientDataReqEBM;
+import ru.neoflex.xml.clientebm.ClientDataResEBM;
 import ru.neoflex.xml.customers.CustomerRequest;
 import ru.neoflex.xml.customers.CustomerResponse;
 
@@ -23,6 +24,10 @@ import java.util.TreeMap;
 @EnableWs
 @Configuration
 public class Config extends WsConfigurerAdapter {
+
+    @Value("${endpointBS}")
+    private String endpointBS;
+
     @Bean
     public ServletRegistrationBean<MessageDispatcherServlet> messageDispatcherServlet(ApplicationContext applicationContext) {
         MessageDispatcherServlet servlet = new MessageDispatcherServlet();
@@ -36,7 +41,7 @@ public class Config extends WsConfigurerAdapter {
         DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
         wsdl11Definition.setPortTypeName("CustomersDetailsPort");
         wsdl11Definition.setLocationUri("/service/customers-details");
-        wsdl11Definition.setTargetNamespace("http://www.neoflex.ru/xml/customers");
+        wsdl11Definition.setTargetNamespace("http://www.neoflex.ru");
         wsdl11Definition.setSchema(schema);
         return wsdl11Definition;
     }
@@ -49,7 +54,7 @@ public class Config extends WsConfigurerAdapter {
     @Bean
     public Jaxb2Marshaller marshaller() {
         Jaxb2Marshaller jaxb2Marshaller = new Jaxb2Marshaller();
-        jaxb2Marshaller.setMarshallerProperties(new TreeMap<String, Object>(){
+        jaxb2Marshaller.setMarshallerProperties(new TreeMap<String, Object>() {
             {
                 put(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
                 put(Marshaller.JAXB_FRAGMENT, Boolean.TRUE);
@@ -60,9 +65,11 @@ public class Config extends WsConfigurerAdapter {
         return jaxb2Marshaller;
     }
 
-    @Bean(name = "urlEBM")
-    public String getUrlEBM() {
-        return "http://localhost:8088/mockClientsDetailsPortSoap11";
+    @Bean(name = "endpointBS")
+    public String getEndpointBS() {
+        System.out.print("getEndpointBS ");
+        System.out.println(endpointBS);
+        return endpointBS;
     }
 
 }

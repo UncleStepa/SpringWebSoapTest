@@ -5,8 +5,6 @@ import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
-
-
 import ru.neoflex.xml.clientebm.ClientDataReqEBM;
 import ru.neoflex.xml.clientebm.ClientDataResEBM;
 import ru.neoflex.xml.customers.CustomerRequest;

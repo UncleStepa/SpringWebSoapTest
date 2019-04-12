@@ -8,21 +8,16 @@
 
 package ru.neoflex.xml.clientebm;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
-import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
  * <p>Java class for AddressType complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="AddressType">
  *   &lt;complexContent>
@@ -39,16 +34,14 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "AddressType", propOrder = {
-    "address",
-    "cityName",
-    "regionName",
-    "postal",
-    "countryName"
+        "address",
+        "cityName",
+        "regionName",
+        "postal",
+        "countryName"
 })
 public class AddressType {
 
@@ -69,11 +62,9 @@ public class AddressType {
 
     /**
      * Gets the value of the address property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getAddress() {
         return address;
@@ -81,11 +72,9 @@ public class AddressType {
 
     /**
      * Sets the value of the address property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setAddress(String value) {
         this.address = value;
@@ -93,11 +82,9 @@ public class AddressType {
 
     /**
      * Gets the value of the cityName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getCityName() {
         return cityName;
@@ -105,11 +92,9 @@ public class AddressType {
 
     /**
      * Sets the value of the cityName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setCityName(String value) {
         this.cityName = value;
@@ -117,11 +102,9 @@ public class AddressType {
 
     /**
      * Gets the value of the regionName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getRegionName() {
         return regionName;
@@ -129,11 +112,9 @@ public class AddressType {
 
     /**
      * Sets the value of the regionName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setRegionName(String value) {
         this.regionName = value;
@@ -141,11 +122,9 @@ public class AddressType {
 
     /**
      * Gets the value of the postal property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getPostal() {
         return postal;
@@ -153,11 +132,9 @@ public class AddressType {
 
     /**
      * Sets the value of the postal property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setPostal(String value) {
         this.postal = value;
@@ -165,11 +142,9 @@ public class AddressType {
 
     /**
      * Gets the value of the countryName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getCountryName() {
         return countryName;
@@ -177,11 +152,9 @@ public class AddressType {
 
     /**
      * Sets the value of the countryName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setCountryName(String value) {
         this.countryName = value;
@@ -189,11 +162,9 @@ public class AddressType {
 
     /**
      * Gets the value of the clientID property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getClientID() {
         return clientID;
@@ -201,11 +172,9 @@ public class AddressType {
 
     /**
      * Sets the value of the clientID property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setClientID(String value) {
         this.clientID = value;

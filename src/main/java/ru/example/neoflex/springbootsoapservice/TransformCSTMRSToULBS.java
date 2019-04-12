@@ -40,18 +40,19 @@ public class TransformCSTMRSToULBS {
 
     public CustomerResponse firstTransform(ClientDataResEBM request) {
         CustomerResponse response = new CustomerResponse();
-        System.out.println("firstTransform start");
         if (request != null && request.getOrders() != null && request.getOrders().getOrder().size() > 0) {
-            System.out.println("firstTransform request != null && request.getOrders() != null && request.getOrders().getOrder().size");
             request.getOrders().getOrder().forEach(orderType -> response.getOrders().getOrder().add(transformOrder(orderType)));
         }
-        System.out.println("firstTransform end");
         return response;
 
     }
 
     private ru.neoflex.xml.customers.OrderType transformOrder(OrderType orderType) {
-        System.out.println(orderType.toString());
+        if (orderType == null) {
+
+            System.out.println("orderType == null");
+            return null;
+        }
         ru.neoflex.xml.customers.OrderType resultOrder = new ru.neoflex.xml.customers.OrderType();
 
         resultOrder.setCustomerID(orderType.getClientId());

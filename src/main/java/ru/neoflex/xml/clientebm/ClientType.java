@@ -8,12 +8,7 @@
 
 package ru.neoflex.xml.clientebm;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
-import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import javax.xml.datatype.XMLGregorianCalendar;
@@ -21,9 +16,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 /**
  * <p>Java class for ClientType complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="ClientType">
  *   &lt;complexContent>
@@ -41,17 +36,15 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "ClientType", propOrder = {
-    "surname",
-    "name",
-    "middleName",
-    "birthDate",
-    "mobileNumber",
-    "fullAddress"
+        "surname",
+        "name",
+        "middleName",
+        "birthDate",
+        "mobileNumber",
+        "fullAddress"
 })
 public class ClientType {
 
@@ -75,11 +68,9 @@ public class ClientType {
 
     /**
      * Gets the value of the surname property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getSurname() {
         return surname;
@@ -87,11 +78,9 @@ public class ClientType {
 
     /**
      * Sets the value of the surname property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setSurname(String value) {
         this.surname = value;
@@ -99,11 +88,9 @@ public class ClientType {
 
     /**
      * Gets the value of the name property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getName() {
         return name;
@@ -111,11 +98,9 @@ public class ClientType {
 
     /**
      * Sets the value of the name property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setName(String value) {
         this.name = value;
@@ -123,11 +108,9 @@ public class ClientType {
 
     /**
      * Gets the value of the middleName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getMiddleName() {
         return middleName;
@@ -135,11 +118,9 @@ public class ClientType {
 
     /**
      * Sets the value of the middleName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setMiddleName(String value) {
         this.middleName = value;
@@ -147,11 +128,9 @@ public class ClientType {
 
     /**
      * Gets the value of the birthDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link XMLGregorianCalendar }
-     *     
+     *
+     * @return possible object is
+     * {@link XMLGregorianCalendar }
      */
     public XMLGregorianCalendar getBirthDate() {
         return birthDate;
@@ -159,11 +138,9 @@ public class ClientType {
 
     /**
      * Sets the value of the birthDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link XMLGregorianCalendar }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link XMLGregorianCalendar }
      */
     public void setBirthDate(XMLGregorianCalendar value) {
         this.birthDate = value;
@@ -171,11 +148,9 @@ public class ClientType {
 
     /**
      * Gets the value of the mobileNumber property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getMobileNumber() {
         return mobileNumber;
@@ -183,11 +158,9 @@ public class ClientType {
 
     /**
      * Sets the value of the mobileNumber property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setMobileNumber(String value) {
         this.mobileNumber = value;
@@ -195,11 +168,9 @@ public class ClientType {
 
     /**
      * Gets the value of the fullAddress property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link AddressType }
-     *     
+     *
+     * @return possible object is
+     * {@link AddressType }
      */
     public AddressType getFullAddress() {
         return fullAddress;
@@ -207,11 +178,9 @@ public class ClientType {
 
     /**
      * Sets the value of the fullAddress property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link AddressType }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link AddressType }
      */
     public void setFullAddress(AddressType value) {
         this.fullAddress = value;
@@ -219,11 +188,9 @@ public class ClientType {
 
     /**
      * Gets the value of the clientID property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getClientID() {
         return clientID;
@@ -231,11 +198,9 @@ public class ClientType {
 
     /**
      * Sets the value of the clientID property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setClientID(String value) {
         this.clientID = value;

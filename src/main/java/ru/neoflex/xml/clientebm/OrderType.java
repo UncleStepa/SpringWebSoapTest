@@ -8,11 +8,7 @@
 
 package ru.neoflex.xml.clientebm;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
-import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import javax.xml.datatype.XMLGregorianCalendar;
@@ -21,9 +17,9 @@ import java.util.StringJoiner;
 
 /**
  * <p>Java class for OrderType complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="OrderType">
  *   &lt;complexContent>
@@ -40,17 +36,15 @@ import java.util.StringJoiner;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "OrderType", propOrder = {
-    "clientId",
-    "empID",
-    "orderID",
-    "date",
-    "deliveryDate",
-    "adds"
+        "clientId",
+        "empID",
+        "orderID",
+        "date",
+        "deliveryDate",
+        "adds"
 })
 public class OrderType {
 
@@ -77,11 +71,9 @@ public class OrderType {
 
     /**
      * Gets the value of the clientId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getClientId() {
         return clientId;
@@ -89,11 +81,9 @@ public class OrderType {
 
     /**
      * Sets the value of the clientId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setClientId(String value) {
         this.clientId = value;
@@ -101,11 +91,9 @@ public class OrderType {
 
     /**
      * Gets the value of the empID property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getEmpID() {
         return empID;
@@ -113,11 +101,9 @@ public class OrderType {
 
     /**
      * Sets the value of the empID property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setEmpID(String value) {
         this.empID = value;
@@ -125,11 +111,9 @@ public class OrderType {
 
     /**
      * Gets the value of the orderID property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getOrderID() {
         return orderID;
@@ -137,11 +121,9 @@ public class OrderType {
 
     /**
      * Sets the value of the orderID property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setOrderID(String value) {
         this.orderID = value;
@@ -149,11 +131,9 @@ public class OrderType {
 
     /**
      * Gets the value of the date property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link XMLGregorianCalendar }
-     *     
+     *
+     * @return possible object is
+     * {@link XMLGregorianCalendar }
      */
     public XMLGregorianCalendar getDate() {
         return date;
@@ -161,11 +141,9 @@ public class OrderType {
 
     /**
      * Sets the value of the date property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link XMLGregorianCalendar }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link XMLGregorianCalendar }
      */
     public void setDate(XMLGregorianCalendar value) {
         this.date = value;
@@ -173,11 +151,9 @@ public class OrderType {
 
     /**
      * Gets the value of the deliveryDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link XMLGregorianCalendar }
-     *     
+     *
+     * @return possible object is
+     * {@link XMLGregorianCalendar }
      */
     public XMLGregorianCalendar getDeliveryDate() {
         return deliveryDate;
@@ -185,11 +161,9 @@ public class OrderType {
 
     /**
      * Sets the value of the deliveryDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link XMLGregorianCalendar }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link XMLGregorianCalendar }
      */
     public void setDeliveryDate(XMLGregorianCalendar value) {
         this.deliveryDate = value;
@@ -197,11 +171,9 @@ public class OrderType {
 
     /**
      * Gets the value of the adds property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link AddsType }
-     *     
+     *
+     * @return possible object is
+     * {@link AddsType }
      */
     public AddsType getAdds() {
         return adds;
@@ -209,11 +181,9 @@ public class OrderType {
 
     /**
      * Sets the value of the adds property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link AddsType }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link AddsType }
      */
     public void setAdds(AddsType value) {
         this.adds = value;

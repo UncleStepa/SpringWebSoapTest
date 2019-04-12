@@ -8,18 +8,14 @@
 
 package ru.neoflex.xml.customers;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.*;
 
 
 /**
  * <p>Java class for anonymous complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -41,12 +37,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "customers"
+        "customers"
 })
 @XmlRootElement(name = "CustomerRequest")
 public class CustomerRequest {
@@ -56,11 +50,9 @@ public class CustomerRequest {
 
     /**
      * Gets the value of the customers property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CustomerRequest.Customers }
-     *     
+     *
+     * @return possible object is
+     * {@link CustomerRequest.Customers }
      */
     public CustomerRequest.Customers getCustomers() {
         return customers;
@@ -68,11 +60,9 @@ public class CustomerRequest {
 
     /**
      * Sets the value of the customers property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CustomerRequest.Customers }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link CustomerRequest.Customers }
      */
     public void setCustomers(CustomerRequest.Customers value) {
         this.customers = value;
@@ -81,9 +71,9 @@ public class CustomerRequest {
 
     /**
      * <p>Java class for anonymous complex type.
-     * 
+     *
      * <p>The following schema fragment specifies the expected content contained within this class.
-     * 
+     *
      * <pre>
      * &lt;complexType>
      *   &lt;complexContent>
@@ -95,12 +85,10 @@ public class CustomerRequest {
      *   &lt;/complexContent>
      * &lt;/complexType>
      * </pre>
-     * 
-     * 
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "customer"
+            "customer"
     })
     public static class Customers {
 
@@ -109,11 +97,9 @@ public class CustomerRequest {
 
         /**
          * Gets the value of the customer property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link CustomerType }
-         *     
+         *
+         * @return possible object is
+         * {@link CustomerType }
          */
         public CustomerType getCustomer() {
             return customer;
@@ -121,11 +107,9 @@ public class CustomerRequest {
 
         /**
          * Sets the value of the customer property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link CustomerType }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link CustomerType }
          */
         public void setCustomer(CustomerType value) {
             this.customer = value;

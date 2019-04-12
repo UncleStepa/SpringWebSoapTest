@@ -1,7 +1,6 @@
 package ru.example.neoflex.springbootsoapservice;
 
-
-import com.sun.xml.internal.messaging.saaj.soap.ver1_1.SOAPMessageFactory1_1Impl;
+import com.sun.xml.messaging.saaj.soap.ver1_1.SOAPMessageFactory1_1Impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 import org.springframework.stereotype.Component;
@@ -12,11 +11,9 @@ import org.springframework.ws.soap.saaj.SaajSoapMessageFactory;
 import org.springframework.ws.transport.context.TransportContext;
 import org.springframework.ws.transport.context.TransportContextHolder;
 import org.springframework.ws.transport.http.HttpUrlConnection;
-import org.springframework.xml.transform.StringResult;
 import ru.neoflex.xml.clientebm.ClientDataReqEBM;
 
 import javax.xml.soap.SOAPException;
-import java.io.IOException;
 import java.util.Date;
 
 @Component
@@ -27,14 +24,14 @@ public class StubRequest {
     private final Jaxb2Marshaller jaxb2Marshaller;
 
     @Autowired
-    public StubRequest(String urlEBM, Jaxb2Marshaller jaxb2Marshaller) {
+    public StubRequest(String endpointBS, Jaxb2Marshaller jaxb2Marshaller) {
         try {
             SaajSoapMessageFactory messageFactory = new SaajSoapMessageFactory(SOAPMessageFactory1_1Impl.newInstance());
             messageFactory.setSoapVersion(SoapVersion.SOAP_11);
             messageFactory.afterPropertiesSet();
 
 
-            webServiceTemplate.setDefaultUri(urlEBM);
+            webServiceTemplate.setDefaultUri(endpointBS);
             webServiceTemplate.setMessageFactory(messageFactory);
             webServiceTemplate.setMarshaller(jaxb2Marshaller);
             webServiceTemplate.setUnmarshaller(jaxb2Marshaller);

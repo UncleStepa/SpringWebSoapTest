@@ -8,20 +8,16 @@
 
 package ru.neoflex.xml.clientebm;
 
+import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
 
 
 /**
  * <p>Java class for anonymous complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -43,12 +39,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "orders"
+        "orders"
 })
 @XmlRootElement(name = "ClientDataResEBM")
 public class ClientDataResEBM {
@@ -58,11 +52,9 @@ public class ClientDataResEBM {
 
     /**
      * Gets the value of the orders property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ClientDataResEBM.Orders }
-     *     
+     *
+     * @return possible object is
+     * {@link ClientDataResEBM.Orders }
      */
     public ClientDataResEBM.Orders getOrders() {
         return orders;
@@ -70,11 +62,9 @@ public class ClientDataResEBM {
 
     /**
      * Sets the value of the orders property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ClientDataResEBM.Orders }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link ClientDataResEBM.Orders }
      */
     public void setOrders(ClientDataResEBM.Orders value) {
         this.orders = value;
@@ -83,9 +73,9 @@ public class ClientDataResEBM {
 
     /**
      * <p>Java class for anonymous complex type.
-     * 
+     *
      * <p>The following schema fragment specifies the expected content contained within this class.
-     * 
+     *
      * <pre>
      * &lt;complexType>
      *   &lt;complexContent>
@@ -97,12 +87,10 @@ public class ClientDataResEBM {
      *   &lt;/complexContent>
      * &lt;/complexType>
      * </pre>
-     * 
-     * 
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "order"
+            "order"
     })
     public static class Orders {
 
@@ -111,25 +99,23 @@ public class ClientDataResEBM {
 
         /**
          * Gets the value of the order property.
-         * 
+         *
          * <p>
          * This accessor method returns a reference to the live list,
          * not a snapshot. Therefore any modification you make to the
          * returned list will be present inside the JAXB object.
          * This is why there is not a <CODE>set</CODE> method for the order property.
-         * 
+         *
          * <p>
          * For example, to add a new item, do as follows:
          * <pre>
          *    getOrder().add(newItem);
          * </pre>
-         * 
-         * 
+         *
+         *
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link OrderType }
-         * 
-         * 
          */
         public List<OrderType> getOrder() {
             if (order == null) {

@@ -12,18 +12,17 @@ import javax.xml.bind.annotation.XmlRegistry;
 
 
 /**
- * This object contains factory methods for each 
- * Java content interface and Java element interface 
- * generated in the generated package. 
- * <p>An ObjectFactory allows you to programatically 
- * construct new instances of the Java representation 
- * for XML content. The Java representation of XML 
- * content can consist of schema derived interfaces 
- * and classes representing the binding of schema 
- * type definitions, element declarations and model 
- * groups.  Factory methods for each of these are 
+ * This object contains factory methods for each
+ * Java content interface and Java element interface
+ * generated in the generated package.
+ * <p>An ObjectFactory allows you to programatically
+ * construct new instances of the Java representation
+ * for XML content. The Java representation of XML
+ * content can consist of schema derived interfaces
+ * and classes representing the binding of schema
+ * type definitions, element declarations and model
+ * groups.  Factory methods for each of these are
  * provided in this class.
- * 
  */
 @XmlRegistry
 public class ObjectFactory {
@@ -31,14 +30,12 @@ public class ObjectFactory {
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: generated
-     * 
      */
     public ObjectFactory() {
     }
 
     /**
      * Create an instance of {@link ClientDataResEBM }
-     * 
      */
     public ClientDataResEBM createClientDataResEBM() {
         return new ClientDataResEBM();
@@ -46,7 +43,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ClientDataReqEBM }
-     * 
      */
     public ClientDataReqEBM createClientDataReqEBM() {
         return new ClientDataReqEBM();
@@ -54,7 +50,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ClientDataResEBM.Orders }
-     * 
      */
     public ClientDataResEBM.Orders createClientDataResEBMOrders() {
         return new ClientDataResEBM.Orders();
@@ -62,7 +57,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ClientDataReqEBM.Clients }
-     * 
      */
     public ClientDataReqEBM.Clients createClientDataReqEBMClients() {
         return new ClientDataReqEBM.Clients();
@@ -70,7 +64,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link AddsType }
-     * 
      */
     public AddsType createAddsType() {
         return new AddsType();
@@ -78,7 +71,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ClientType }
-     * 
      */
     public ClientType createClientType() {
         return new ClientType();
@@ -86,7 +78,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link OrderType }
-     * 
      */
     public OrderType createOrderType() {
         return new OrderType();
@@ -94,7 +85,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link AddressType }
-     * 
      */
     public AddressType createAddressType() {
         return new AddressType();

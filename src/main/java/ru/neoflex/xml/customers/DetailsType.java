@@ -16,9 +16,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for DetailsType complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="DetailsType">
  *   &lt;complexContent>
@@ -34,16 +34,14 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "DetailsType", propOrder = {
-    "itemType",
-    "number",
-    "amount",
-    "currency",
-    "paymentMethod"
+        "itemType",
+        "number",
+        "amount",
+        "currency",
+        "paymentMethod"
 })
 public class DetailsType {
 
@@ -60,11 +58,9 @@ public class DetailsType {
 
     /**
      * Gets the value of the itemType property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getItemType() {
         return itemType;
@@ -72,11 +68,9 @@ public class DetailsType {
 
     /**
      * Sets the value of the itemType property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setItemType(String value) {
         this.itemType = value;
@@ -84,11 +78,9 @@ public class DetailsType {
 
     /**
      * Gets the value of the number property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getNumber() {
         return number;
@@ -96,11 +88,9 @@ public class DetailsType {
 
     /**
      * Sets the value of the number property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setNumber(String value) {
         this.number = value;
@@ -108,11 +98,9 @@ public class DetailsType {
 
     /**
      * Gets the value of the amount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getAmount() {
         return amount;
@@ -120,11 +108,9 @@ public class DetailsType {
 
     /**
      * Sets the value of the amount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setAmount(String value) {
         this.amount = value;
@@ -132,11 +118,9 @@ public class DetailsType {
 
     /**
      * Gets the value of the currency property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getCurrency() {
         return currency;
@@ -144,11 +128,9 @@ public class DetailsType {
 
     /**
      * Sets the value of the currency property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setCurrency(String value) {
         this.currency = value;
@@ -156,11 +138,9 @@ public class DetailsType {
 
     /**
      * Gets the value of the paymentMethod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getPaymentMethod() {
         return paymentMethod;
@@ -168,11 +148,9 @@ public class DetailsType {
 
     /**
      * Sets the value of the paymentMethod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setPaymentMethod(String value) {
         this.paymentMethod = value;
