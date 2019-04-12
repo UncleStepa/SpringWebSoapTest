@@ -50,7 +50,7 @@ public class TransformCSTMRSToULBS {
     private ru.neoflex.xml.customers.OrderType transformOrder(OrderType orderType) {
         if (orderType == null) {
 
-            System.out.println("orderType == null");
+            System.err.println("orderType == null");
             return null;
         }
         ru.neoflex.xml.customers.OrderType resultOrder = new ru.neoflex.xml.customers.OrderType();

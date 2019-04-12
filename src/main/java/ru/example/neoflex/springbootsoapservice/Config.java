@@ -67,8 +67,6 @@ public class Config extends WsConfigurerAdapter {
 
     @Bean(name = "endpointBS")
     public String getEndpointBS() {
-        System.out.print("getEndpointBS ");
-        System.out.println(endpointBS);
         return endpointBS;
     }
 
