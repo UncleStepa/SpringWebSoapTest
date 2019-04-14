@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringWebSoapTest.iml" filepath="$PROJECT_DIR$/SpringWebSoapTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringWebSoapTest.iml" filepath="$PROJECT_DIR$/SpringWebSoapTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-soap-service.iml" filepath="$PROJECT_DIR$/spring-boot-soap-service.iml" />
     </modules>
   </component>

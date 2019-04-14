@@ -63,7 +63,7 @@ public class OrderType {
     @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar orderDate;
     @XmlElement(name = "RequiredDate", required = true)
-    @XmlSchemaType(name = "date")
+    @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar requiredDate;
     @XmlElement(name = "Details", required = true)
     protected DetailsType details;

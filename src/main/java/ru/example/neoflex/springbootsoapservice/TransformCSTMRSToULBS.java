@@ -17,8 +17,8 @@ public class TransformCSTMRSToULBS {
     public ClientDataReqEBM firstTransform(CustomerRequest request) {
         ClientDataReqEBM clientDataReqEBM = new ClientDataReqEBM();
         ClientType client = new ClientType();
-        client.setSurname(request.getCustomers().getCustomer().getLastName());
-        client.setName(request.getCustomers().getCustomer().getFirstName());
+        client.setSurname(request.getCustomers().getCustomer().getFirstName());
+        client.setName(request.getCustomers().getCustomer().getLastName());
         client.setMiddleName(request.getCustomers().getCustomer().getMiddleName());
         client.setClientID(request.getCustomers().getCustomer().getCustomerID());
         client.setBirthDate(request.getCustomers().getCustomer().getBirthDateTime());
@@ -27,7 +27,7 @@ public class TransformCSTMRSToULBS {
         ru.neoflex.xml.clientebm.AddressType address = new ru.neoflex.xml.clientebm.AddressType();
         address.setAddress(request.getCustomers().getCustomer().getFullAddress().getAddress());
         address.setCityName(request.getCustomers().getCustomer().getFullAddress().getCity());
-        address.setRegionName(request.getCustomers().getCustomer().getFullAddress().getRegion());
+        address.setRegionName(null);
         address.setPostal(request.getCustomers().getCustomer().getFullAddress().getPostalCode());
         address.setCountryName(request.getCustomers().getCustomer().getFullAddress().getCountry());
         client.setFullAddress(address);
@@ -63,11 +63,11 @@ public class TransformCSTMRSToULBS {
 
         if (orderType.getAdds() != null) {
             DetailsType detailsType = new DetailsType();
-            detailsType.setAmount(orderType.getAdds().getAmt());
+            detailsType.setAmount(orderType.getAdds().getQuantity());
             detailsType.setItemType(orderType.getAdds().getProductType());
             detailsType.setCurrency(orderType.getAdds().getCurr());
             detailsType.setPaymentMethod(orderType.getAdds().getPayWay());
-            detailsType.setNumber(orderType.getAdds().getQuantity());
+            detailsType.setNumber(orderType.getAdds().getAmt());
             resultOrder.setDetails(detailsType);
         }
 
